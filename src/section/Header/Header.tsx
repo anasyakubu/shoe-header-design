@@ -1,11 +1,15 @@
+import HeaderCard from "../../components/shared/HeaderCard/HeaderCard";
 import Nav from "../../components/shared/Nav";
+import "./Header.scss";
 
 const Header = () => {
   return (
     <div className="Header">
-      <div className="bg-black text-white">
+      <div className="bg-black text-white div">
         <Nav />
-        <div className=""></div>
+        <div className="py-10 p-10">
+          <HeaderCard />
+        </div>
       </div>
     </div>
   );

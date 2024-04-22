@@ -56,16 +56,15 @@ export default function Nav() {
             ))}
           </div>
           <div className="hidden lg:flex lg:flex-1 lg:justify-end">
-            <a
+            {/* <a
               href="sign-in"
               className="text-sm font-semibold p-2 leading-6 text-gray-900"
             >
               Log in
-              {/* <span aria-hidden="true">&rarr;</span> */}
-            </a>
+            </a> */}
             <a
               href="sign-in"
-              className="text-sm font-semibold p-2 pr-5 pl-5 leading-6 text-white bg-[#11bd6b] rounded-3xl"
+              className="text-sm font-semibold p-2 pr-5 pl-5 leading-6 text-black bg-white rounded-3xl"
             >
               Sign up
             </a>
@@ -112,12 +111,12 @@ export default function Nav() {
                   ))}
                 </div>
                 <div className="py-6">
-                  <a
+                  {/* <a
                     href="sign-in"
                     className="-mx-3 block rounded-lg px-3 py-2.5 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50"
                   >
                     Log in
-                  </a>
+                  </a> */}
                 </div>
               </div>
             </div>
