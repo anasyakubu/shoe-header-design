@@ -1,5 +1,14 @@
-.Header {
-  .div {
-    height: 100vh;
+// .Header {
+//   .div {
+//     height: 100vh;
+//   }
+// }
+
+@media (max-width: 600px) {
+  .Header {
+    // height: 100%;
+    .p-10 {
+      padding: 3%;
+    }
   }
 }

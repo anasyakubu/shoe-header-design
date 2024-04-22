@@ -26,18 +26,18 @@ const HeaderCard = () => {
                 href="/"
                 className="text-sm font-semibold p-2 pr-5 pl-5 leading-6 text-black bg-white rounded-3xl"
               >
-                Sign up
+                Buy Now
               </a>
               <a
                 href="/"
                 className="text-sm font-semibold p-2 pr-5 pl-5 leading-6 text-white bg-transparent border border-white rounded-3xl"
               >
-                Sign up
+                Explore
               </a>
             </div>
           </div>
           <div className="flex justify-center">
-            <img className="w-96" src={Banner} alt="" />
+            <img src={Banner} alt="" />
           </div>
         </div>
       </div>

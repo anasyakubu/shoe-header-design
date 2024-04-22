@@ -7,7 +7,7 @@ const Header = () => {
     <div className="Header">
       <div className="bg-black text-white div">
         <Nav />
-        <div className="py-10 p-10">
+        <div className="py-7 p-10">
           <HeaderCard />
         </div>
       </div>
